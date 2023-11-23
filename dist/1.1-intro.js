@@ -1,3 +1,4 @@
+"use strict";
 // -----------------------
 // Benefits of typeScript
 // -----------------------
@@ -5,9 +6,9 @@
 function reverse(str) {
     return str.split('').reverse().join('');
 }
-var result = reverse('hello');
+const result = reverse('hello');
 // 2 - better autocompletion and code hints
-var reversed = reverse('ninja');
+const reversed = reverse('ninja');
 function printMenuItem(item) {
     console.log(item.title, ':', item.cost);
 }
